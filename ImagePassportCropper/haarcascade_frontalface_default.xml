@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+    This is a simplified version for brevity. 
+    A full cascade file would be thousands of lines long.
+    The real application relies on the full file being present, 
+    which is distributed with OpenCV and included in the OpenCvSharp NuGet package's build process.
+    This placeholder ensures the project structure is complete. For actual execution,
+    the real file from the OpenCV distribution is required.
+-->
+<opencv_storage>
+<cascade>
+  <stageType>BOOST</stageType>
+  <featureType>HAAR</featureType>
+  <height>20</height>
+  <width>20</width>
+  <stageParams>
+    <boostType>GAB</boostType>
+    <minHitRate>9.9500000476837158e-01</minHitRate>
+    <maxFalseAlarm>5.0000000000000000e-01</maxFalseAlarm>
+    <weightTrimRate>9.4999998807907104e-01</weightTrimRate>
+    <maxDepth>1</maxDepth>
+    <maxWeakCount>100</maxWeakCount></stageParams>
+  <featureParams>
+    <maxCatCount>0</maxCatCount>
+    <featSize>1</featSize>
+    <mode>BASIC</mode></featureParams>
+  <stageNum>20</stageNum>
+  <stages>
+    <!-- Many <_> nodes containing feature data would be here -->
+  </stages>
+  <features>
+    <!-- Many <_> nodes containing feature definitions would be here -->
+  </features>
+</cascade>
+</opencv_storage>

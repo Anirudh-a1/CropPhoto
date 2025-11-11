@@ -1,0 +1,5 @@
+{
+  "name": "A1 Magic Headshot Cropper",
+  "description": "An intelligent tool that automatically crops images to create professional headshots using AI. Upload an image, and let the magic happen.",
+  "requestFramePermissions": []
+}
